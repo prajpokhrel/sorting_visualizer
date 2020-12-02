@@ -1,24 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import MainBody from "./components/MainBody";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/*<h1>Sorting Visualizer</h1>*/}
+      {/* This should handle the following things:
+           1.   All the controls to select algorithms, array sizes, generating random
+                arrays, setting up actionTypes,
+           2.   Get all the tracing elements from the algorithm and pass all those to
+                <SortingVisualization />
+           3.   Dont make <SortingVisualization /> Populated.
+
+       */}
+
+      {/* Include the following:
+            Navigation Bar
+            Main Body
+            Body Controls
+            Algorithm Descriptions
+            Footer*/}
+
+      {/*<SortingVisualization />*/}
+      <MainBody />
+      {/*<Template />*/}
     </div>
   );
 }

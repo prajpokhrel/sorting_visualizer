@@ -1,0 +1,16 @@
+.visualization_board {
+    /*background-color: #C7C7CC;*/
+    background-color: #bbbbbb;
+    height: 70vh;
+    box-sizing: border-box;
+}
+
+.sorting-bars  {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /*align-content: flex-end;*/
+    flex-wrap: nowrap;
+    height: 70vh;
+    /*background-color: red;*/
+}
