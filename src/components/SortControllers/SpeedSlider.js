@@ -36,10 +36,6 @@ const SpeedSlider = (props) => {
 
     }
 
-    // const getValueHandler = () => {
-    //     console.log(speed);
-    // }
-
     return (
         <div className="row">
             <div className="col-sm control_style">

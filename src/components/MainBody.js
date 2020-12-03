@@ -119,6 +119,7 @@ const MainBody = () => {
         // console.log(newArray, stateA, stateB, stateC, stateD);
     };
 
+
     const playbackSpeed = (speed) => {
         clearTimeouts();
         // resetBars();
@@ -147,16 +148,6 @@ const MainBody = () => {
         }
     };
 
-
-    // const updateDisableBtn = (value) => {
-    //     setBtnDisable(prevState => value);
-    // };
-
-    // const resetHandler = () => {
-    //     clearTimeouts();
-    //     resetBars();
-    //     // generateArrayHandler(25);
-    // }
 
     const clearTimeouts = () => {
         timeoutIds.forEach((timeoutId) => {

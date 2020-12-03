@@ -25,11 +25,6 @@ const ControlWrapper = (props) => {
         props.onChangeAlgorithm(algorithm);
     }, [algorithm]);
 
-    // useEffect(() => {
-    //     console.log(size);
-    //     console.log(speed);
-    //     console.log(algorithm)
-    // }, [size, speed, algorithm]);
 
     const algorithmChangeHandler = (event) => {
         const name = event.target.name;
@@ -53,39 +48,20 @@ const ControlWrapper = (props) => {
         return `${value}`;
     }
 
-    // const onSortBtnClicked = () => {
-    //     // props.disability(true);
-    //     props.onVisualizationStart();
-    // }
-
-
-    // const getArraySizeHandler = (value) => {
-    //     console.log("SIZE:", value);
-    // }
-    //
-    // const getSpeedHandler = (value) => {
-    //     console.log("SPEED:", value);
-    // }
-
     return (
         <div className="col-sm-3 control_board">
 
             <AlgorithmSelector algorithm={algorithm} handleChange={algorithmChangeHandler}/>
-            {/*<SizeSlider valuetext={valuetext} getArraySize={getArraySizeHandler}/>*/}
             <SizeSlider valuetext={valuetext} size={size} updateSize={updateSize}/>
             <SpeedSlider valuetext={valuetext} speed={speed} updateSpeed={updateSpeed}/>
-            {/*<SpeedSlider valuetext={valuetext} getSpeed={getSpeedHandler}/>*/}
 
             <div className="row">
                 <div className="col-sm button_group control_style">
                     <Button variant="contained"
                             disabled={props.onBtnDisabled}
-                            // onClick={() => props.onVisualizationStart(algorithm)}>SORT</Button>
                             onClick={props.onVisualizationStart}>SORT</Button>
                     <Button variant="contained" color="primary"
                             onClick={() => props.onGenerateArray(size)}>Generate New Array</Button>
-                    {/*<Button variant="outlined"*/}
-                    {/*        onClick={props.onResetVisualState}>Reset</Button>*/}
                 </div>
             </div>
         </div>

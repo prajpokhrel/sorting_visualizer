@@ -1,3 +1,14 @@
+# Sorting Visualizer
+I built this app using React JS to visualize different 
+sorting algorithms in action. This project was done to learn 
+classic sorting algorithms and also improve my React skills. <br />
+
+##### Algorithm includes: <br />
+Bubble Sort, Selection Sort, Insertion 
+Sort, Merge Sort, Quick Sort, Heap Sort and Shell Sort.
+
+You can play around with the app from here: 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

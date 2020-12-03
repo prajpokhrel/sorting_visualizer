@@ -15,24 +15,6 @@ const AlgorithmDescription = (props) => {
                 <h2>Time and Space Complexities:</h2>
                 <table className="table table-striped">
                     {props.algoDescription.complexity}
-                    {/*<tbody>*/}
-                    {/*<tr>*/}
-                    {/*    <th scope="row">Best Case (Time)</th>*/}
-                    {/*    <td>O (n)</td>*/}
-                    {/*</tr>*/}
-                    {/*<tr>*/}
-                    {/*    <th scope="row">Average Case (Time)</th>*/}
-                    {/*    <td>O (n^2)</td>*/}
-                    {/*</tr>*/}
-                    {/*<tr>*/}
-                    {/*    <th scope="row">Worst Case (Time)</th>*/}
-                    {/*    <td>O (n^2)</td>*/}
-                    {/*</tr>*/}
-                    {/*<tr>*/}
-                    {/*    <th scope="row">Worst Case (Space)</th>*/}
-                    {/*    <td>O (1)</td>*/}
-                    {/*</tr>*/}
-                    {/*</tbody>*/}
                 </table>
             </div>
         </div>

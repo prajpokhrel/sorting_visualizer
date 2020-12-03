@@ -18,10 +18,6 @@ const SizeSlider = (props) => {
         props.updateSize(value);
     }
 
-    // const getSizeHandler = () => {
-    //     return size;
-    // }
-
     return (
         <div className="row">
             <div className="col-sm control_style">
