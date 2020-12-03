@@ -1,4 +1,4 @@
-# Sorting Visualizer
+# Sorting Algorithms Visualizer
 I built this app using React JS to visualize different 
 sorting algorithms in action. This project was done to learn 
 classic sorting algorithms and also improve my React skills. <br />
