@@ -7,7 +7,7 @@ classic sorting algorithms and also improve my React skills. <br />
 Bubble Sort, Selection Sort, Insertion 
 Sort, Merge Sort, Quick Sort, Heap Sort and Shell Sort.
 
-You can play around with the app from here: [Sort Visualizer](https://algo-visualizer.prajwalp.com.np).
+You can play around with the app from here: [Algorithms Visualizer](https://algo-visualizer.prajwalp.com.np).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
